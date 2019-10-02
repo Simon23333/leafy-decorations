@@ -28,12 +28,12 @@ html {
 }
 
 .nav a:hover {
-    color: #145b1d;
-    background-image: url("../images.leaf-bg.svg");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: #fff;
+  background-color: #fff;
+  color: #145b1d;
+  background-image: url("../images/leaf-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50px auto;
 }
 
 .banner {
@@ -45,9 +45,9 @@ html {
 }
 
 .banner-content {
-  background-color: #2d5a4d;
-  background-size: #588477;
-  padding-bottom: 300px;
+  padding-top: 180px;
+  background-size: 100px;
+  background-repeat: no-repeat;
 
 }
 
