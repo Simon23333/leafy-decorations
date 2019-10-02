@@ -103,3 +103,27 @@ div p {
     padding-top: 2.6em;
     }
 }
+
+@media only screen and (min-width: 90em) {
+
+  .masthead {
+    text-align: left;
+  }
+
+  .banner-content {
+    padding-top: 8.9em;
+  }
+
+  .logo {
+    text-align: left;
+  }
+
+  .nav {
+    text-align: right;
+  }
+
+  div p {
+    padding-top: 2.3em;
+  }
+
+}
