@@ -51,7 +51,45 @@ html {
 
 }
 
+div p {
+  background: no-repeat url("../images/two-leaves.svg");
+  background-size: 100px;
+  padding-top: 4.7em;
+}
+
+.logo,
+.nav {
+  text-align: center;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .logo,
+  .nav {
+    text-align: center;
+  }
+
+  .banner-content {
+    padding-top: 10em;
+  }
+
+  div p {
+    padding-top: 3em;
+  }
+
+}
+
+
 @media only screen and (min-width: 60em) {
+
+  .masthead {
+   text-align: left;
+   padding-bottom: .7em;
+ }
+
+ .banner-content {
+   padding-top: 9.6em;
+ }
 
   .logo {
     text-align: left;
@@ -61,4 +99,7 @@ html {
     text-align: right;
   }
 
+  div p {
+    padding-top: 2.6em;
+    }
 }
