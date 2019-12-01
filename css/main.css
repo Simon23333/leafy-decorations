@@ -3,7 +3,7 @@ html {
 }
 
 .masthead {
-  background-image: url("../images/banner.jpg");
+  background-image: url("../images/leaf-bg.svg");
   background-color: #588477;
   border-top: 3px solid #2d5a4d;
   border-bottom: 3px solid #2d5a4d;
@@ -38,7 +38,7 @@ html {
 
 .banner {
   color: #fff;
-  background-image: linear-gradient(to bottom, rgba(16, 52, 41, 0) 70%, rgba(16, 52, 41, .8) 100%),url("../images/banner.jpg");
+  background-image: linear-gradient(to bottom, rgba(16, 52, 41, 0) 70%, rgba(16, 52, 41, .8) 100%), url("../images/banner.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom center;
@@ -48,7 +48,6 @@ html {
   padding-top: 180px;
   background-size: 100px;
   background-repeat: no-repeat;
-
 }
 
 div p {
@@ -79,17 +78,16 @@ div p {
 
 }
 
-
 @media only screen and (min-width: 60em) {
 
   .masthead {
-   text-align: left;
-   padding-bottom: .7em;
- }
+    text-align: left;
+    padding-bottom: .7em;
+  }
 
- .banner-content {
-   padding-top: 9.6em;
- }
+  .banner-content {
+    padding-top: 9.6em;
+  }
 
   .logo {
     text-align: left;
@@ -101,7 +99,8 @@ div p {
 
   div p {
     padding-top: 2.6em;
-    }
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
